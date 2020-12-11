@@ -34,7 +34,7 @@ public class SplashScreen extends Activity {
 
         ImageView miFoto = findViewById(R.id.imaCora);
         Glide.with(this)
-                .load(R.mipmap.icon12)
+                .load(R.drawable.corazon3v2)
                 .centerCrop()
                 .transition(DrawableTransitionOptions.withCrossFade(100))
                 .placeholder(new ColorDrawable(this.getResources().getColor(R.color.light_purple_button)))

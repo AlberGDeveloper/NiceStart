@@ -4,23 +4,24 @@
     android:id="@+id/viiu2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_red_light">
+    android:background="@android:color/holo_blue_dark">
 
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="895dp"
+        android:layout_width="1195dp"
         android:layout_height="870dp"
-        android:layout_marginTop="1dp"
+        android:layout_marginTop="4dp"
         android:src="@drawable/nub"
         app:layout_constraintEnd_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imaCora"
-        android:layout_width="80dp"
-        android:layout_height="74dp"
+        android:layout_width="115dp"
+        android:layout_height="109dp"
         android:layout_marginTop="48dp"
         android:layout_marginBottom="20dp"
         android:src="@mipmap/icon12"
@@ -29,7 +30,8 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/corazon3v2" />
 
     <TextView
         android:id="@+id/textView"
@@ -52,8 +54,8 @@
 
     <View
         android:id="@+id/view"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="413dp"
+        android:layout_height="733dp"
         android:background="@drawable/scrim"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"

@@ -26,6 +26,16 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        Button miBoton2 = findViewById(R.id.btn23);
+        miBoton2.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
     }
 
     public void openScrolling(View view) {
