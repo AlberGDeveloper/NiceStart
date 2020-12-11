@@ -7,6 +7,12 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+/**
+ * Ventana de registro. Botones funcionales: Cancel y login, el cual te lleva al main activity 2 (de nuevo)
+ * @author Alberto García
+ * @see MainActivity2
+ */
+
 public class SingUpActivity extends AppCompatActivity {
 
     protected Button mCancelButton;

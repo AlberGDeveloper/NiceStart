@@ -14,6 +14,10 @@ import android.widget.TextView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+/**
+ * Ventana que da paso a la ventana principal de la aplicación. En ella hemos implementado transiciones.
+ * @author ALberto García
+ */
 public class SplashScreen extends Activity {
 
     @Override

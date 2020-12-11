@@ -13,6 +13,10 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 
+/**
+ * Ventana con glide para poner de ejemplo el circlecrop. En construcción.
+ * @author Alberto García
+ */
 
 public class MainActivity2 extends AppCompatActivity {
     ImageView fotonubes;

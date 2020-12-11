@@ -7,10 +7,16 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
+/**
+ * @author Alberto García
+ * Ventana cuyo uso es, volver a la ventana del logín a través del botón cancel, o a un segundo main activity a través del botón go main2.
+ * A futuro, es ese main activity2, habrá más contenido.
+ * @see MainActivity2
+ */
 public class MainActivity extends AppCompatActivity {
     protected TextView miTexto;
-    
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

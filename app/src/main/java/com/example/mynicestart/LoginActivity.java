@@ -16,6 +16,11 @@ import com.google.android.material.textfield.TextInputLayout;
 
 //import android.support.v7.app.ActionBarActivity;
 
+/**Ventana de login. Importante la interacción de los botones LOGIN y SINGUP. Cada uno, te lleva a una ventana diferente
+ * @author Alberto García
+ * @see MainActivity
+ * @see SingUpActivity
+ */
 
 public class LoginActivity extends Activity {
 
