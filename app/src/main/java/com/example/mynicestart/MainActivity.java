@@ -1,6 +1,7 @@
 package com.example.mynicestart;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.content.Intent;
@@ -14,6 +15,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.material.bottomappbar.BottomAppBar;
 
 /**
  /**
@@ -34,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         ImageView mycontext = findViewById(R.id.imageView);
         registerForContextMenu(mycontext);
         Button miBoton = findViewById(R.id.btn22);
-        // miTexto= findViewById(R.id.txthola);
+
         miBoton.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -82,6 +85,7 @@ public class MainActivity extends AppCompatActivity {
         }
         return super.onContextItemSelected(item);
     }
+
     public void openScrolling(View view) {
     }
 }

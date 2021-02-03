@@ -22,7 +22,7 @@ public class SingUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_singup);
 
-        getSupportActionBar().hide();
+      //  getSupportActionBar().hide();
 
 
         mCancelButton = (Button) findViewById(R.id.cancelbutton);
