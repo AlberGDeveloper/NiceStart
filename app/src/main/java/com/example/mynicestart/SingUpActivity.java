@@ -38,7 +38,7 @@ public class SingUpActivity extends AppCompatActivity {
         miBoton3.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(SingUpActivity.this, MainActivity2.class);
+                Intent intent = new Intent(SingUpActivity.this, MainActivity3.class);
                 startActivity(intent);
 
             }
