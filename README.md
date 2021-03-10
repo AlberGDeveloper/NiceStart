@@ -1,4 +1,5 @@
 # MyNiceStart
+
 ------------------------ VENTANA SPLASH ------------------------                |                               ----------------------- VENTANA LOGIN ----------------------- |
 
 ![](app/img/Captura.PNG) | ![](app/img/Captura1.PNG)
