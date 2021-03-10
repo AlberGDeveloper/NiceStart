@@ -29,6 +29,7 @@ import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginActivity extends Activity {
 
+
     protected Button mSignUpButton;
     protected Button mLoginButton;
     protected TextInputLayout mUsername;
